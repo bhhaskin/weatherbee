@@ -1,11 +1,25 @@
 {
     "name": "bhhaskin/weatherbee",
+    "type": "library",
+    "description": "Weather.gov API php library",
+    "keywords": ["Weather","Weather.gov"],
+    "homepage": "https://github.com/bhhaskin/weatherbee",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Haskin",
+            "email": "bhhaskin@gmail.com",
+            "homepage": "https://bitsofsimplicity.com/",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-0" : {
             "Bhhaskin\\WeatherBee" : "src"
         }
     },
     "require": {
+        "php": ">=7.1",
         "guzzlehttp/guzzle": "~6.0"
     },
     "repositories": [
