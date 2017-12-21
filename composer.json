@@ -1,0 +1,14 @@
+{
+    "name": "bhhaskin/weatherbee",
+    "autoload": {
+        "psr-0" : {
+            "Bhhaskin\\WeatherBee" : "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bhhaskin/weatherbee"
+        }
+    ],
+}
