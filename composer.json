@@ -10,5 +10,8 @@
             "type": "vcs",
             "url": "https://github.com/bhhaskin/weatherbee"
         }
-    ]
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+    },
 }
