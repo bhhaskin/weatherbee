@@ -5,13 +5,13 @@
             "Bhhaskin\\WeatherBee" : "src"
         }
     },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+    },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/bhhaskin/weatherbee"
         }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "~6.0",
-    }
+    ]
 }
