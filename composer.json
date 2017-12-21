@@ -1,8 +1,8 @@
 {
     "name": "bhhaskin/weatherbee",
     "type": "library",
-    "description": "Weather.gov API  wrapper library",
-    "keywords": ["Weather","Weather.gov"],
+    "description": "Weather.gov API wrapper library",
+    "keywords": ["Weather", "forcast", "Weather.gov"],
     "homepage": "https://github.com/bhhaskin/weatherbee",
     "license": "MIT",
     "authors": [
