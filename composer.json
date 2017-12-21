@@ -1,7 +1,7 @@
 {
     "name": "bhhaskin/weatherbee",
     "type": "library",
-    "description": "Weather.gov API php library",
+    "description": "Weather.gov API  wrapper library",
     "keywords": ["Weather","Weather.gov"],
     "homepage": "https://github.com/bhhaskin/weatherbee",
     "license": "MIT",

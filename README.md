@@ -1,2 +1,2 @@
 # Weatherbee
-Weather.gov API php library
+Weather.gov API wrapper library
