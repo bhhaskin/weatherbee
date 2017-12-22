@@ -31,5 +31,8 @@
             "type": "vcs",
             "url": "https://github.com/bhhaskin/weatherbee"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
 }
