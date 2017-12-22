@@ -13,6 +13,10 @@
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/bhhaskin/weatherbee/issues",
+        "source": "https://github.com/bhhaskin/weatherbee.git"
+    },
     "autoload": {
         "psr-0" : {
             "Bhhaskin\\WeatherBee" : "src"
