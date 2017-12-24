@@ -1,0 +1,15 @@
+nginx:
+  build: ./build/docker/nginx/
+  ports:
+      - 80:80
+  links:
+    - php
+  volumes:
+    - .:/var/www/html
+
+php:
+  build: ./build/docker/php/
+  expose:
+    - 9000
+  volumes:
+    - .:/var/www/html
