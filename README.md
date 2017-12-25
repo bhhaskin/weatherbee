@@ -1,2 +1,2 @@
 # Weatherbee
-Weather.gov API wrapper library
+A PHP API to parse weather data from multiple backends
