@@ -21,3 +21,6 @@ install:
 
 script:
   - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.xml
+after_success:
+  # CodeCov
+- bash <(curl -s https://codecov.io/bash)
