@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 use Bhhaskin\WeatherBee\HelloWorld;
 /**
- * @covers HelloWorld
+ * @covers Bhhaskin\WeatherBee\HelloWorld
  */
 final class HelloWorldTest  extends TestCase
 {
