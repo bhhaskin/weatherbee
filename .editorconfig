@@ -19,5 +19,5 @@ indent_size = 2
 [*.{html,php}]
 
 # Config files
-[*.{yml,rb}]
+[*.{yml,rb,json}]
 indent_size = 2
