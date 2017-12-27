@@ -6,7 +6,6 @@ A PHP API to parse weather data from multiple backends
 [![codecov](https://codecov.io/gh/bhhaskin/weatherbee/branch/master/graph/badge.svg)](https://codecov.io/gh/bhhaskin/weatherbee)
 
 
-
 Installation
 ============
 This library can be found on [Packagist](https://packagist.org/packages/bhhaskin/weatherbee).

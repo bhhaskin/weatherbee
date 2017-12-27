@@ -2,6 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 use Bhhaskin\WeatherBee\HelloWorld;
+
 /**
  * @covers Bhhaskin\WeatherBee\HelloWorld
  */
