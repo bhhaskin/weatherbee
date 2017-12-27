@@ -63,7 +63,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getDescription
+     * @covers ::getFormatted
      */
     public function getFormatted()
     {
