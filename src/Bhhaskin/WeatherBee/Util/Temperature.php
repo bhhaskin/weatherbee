@@ -74,7 +74,7 @@ class Temperature
     * @param Unit $evening The evening temperature. Might not be null.
     * @param Unit $night The night temperature. Might not be null.
     */
-    function __construct(
+    public function __construct(
         Unit $now,
         Unit $min,
         Unit $max,

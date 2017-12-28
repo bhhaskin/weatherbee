@@ -4,10 +4,10 @@ namespace Bhhaskin\WeatherBee;
 /**
  * HelloWorld
  */
-class HelloWorld 
+class HelloWorld
 {
-    
-    function __construct()
+
+    public function __construct()
     {
         echo "Hello World!";
     }
