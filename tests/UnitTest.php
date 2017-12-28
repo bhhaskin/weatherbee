@@ -5,13 +5,13 @@ use PHPUnit\Framework\TestCase;
 use Bhhaskin\WeatherBee\Util\Unit;
 
 /**
- * @covers Bhhaskin\WeatherBee\Util\Unit
+ * @coversDefaultClass Bhhaskin\WeatherBee\Util\Unit
  */
 final class UnitTest extends TestCase
 {
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::__construct
+     * @covers ::__construct
      */
     public function testUnitCreation()
     {
@@ -19,7 +19,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getValue
+     * @covers ::getValue
      */
     public function testGetValue()
     {
@@ -28,7 +28,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getUnit
+     * @covers ::getUnit
      */
     public function testgetUnit()
     {
@@ -37,7 +37,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getUnit
+     * @covers ::getUnit
      */
     public function testgetUnitFahrenheit()
     {
@@ -46,7 +46,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getUnit
+     * @covers ::getUnit
      */
     public function testgetUnitCelsius()
     {
@@ -55,7 +55,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getDescription
+     * @covers ::getDescription
      */
     public function testGetDecription()
     {
@@ -64,25 +64,25 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getFormatted
+     * @covers ::getFormatted
      */
-    public function getFormattedWithUnit()
+    public function testGetFormattedWithUnit()
     {
-        $unit = new Unit(1.1, "fahrenheit", "");
+        $unit = new Unit(1.1, "fahrenheit");
         $this->assertEquals($unit->getFormatted(), "1.1 F");
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::getFormatted
+     * @covers ::getFormatted
      */
-    public function getFormattedWithoutUnit()
+    public function testGetFormattedWithoutUnit()
     {
-        $unit = new Unit(1.1, "", "");
+        $unit = new Unit(1.1);
         $this->assertEquals($unit->getFormatted(), "1.1");
     }
 
     /**
-     * @covers Bhhaskin\WeatherBee\Util\Unit::__toString
+     * @covers ::__toString
      */
     public function testToString()
     {
