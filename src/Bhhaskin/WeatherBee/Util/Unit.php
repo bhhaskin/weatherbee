@@ -2,7 +2,7 @@
 namespace Bhhaskin\WeatherBee\Util;
 
 /**
-*
+*   Class for handling values with units
 */
 class Unit
 {
@@ -43,7 +43,6 @@ class Unit
     /**
     * Get the value as formatted string with unit.
     * Unit will not be included if it is empty
-    *
     * @return string The value formatted string with unit.
     */
     public function __toString(): string
@@ -54,7 +53,6 @@ class Unit
     /**
     * Get the value's unit.
     * This also converts 'celsius' to 'C' and 'fahrenheit' to 'F'.
-    *
     * @return string The value's unit.
     */
     public function getUnit(): ?string
@@ -70,7 +68,6 @@ class Unit
 
     /**
     * Get the value.
-    *
     * @return float The value
     */
     public function getValue(): float
@@ -80,7 +77,6 @@ class Unit
 
     /**
     * Get the value's description.
-    *
     * @return string Value's description.
     */
     public function getDescription(): ?string
@@ -90,7 +86,6 @@ class Unit
 
     /**
     * Get the value as a formatted string with unit.
-    *
     * @return string The value as formatted string with unit.
     */
     public function getFormatted(): string

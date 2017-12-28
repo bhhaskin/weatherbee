@@ -23,7 +23,7 @@ final class UnitTest extends TestCase
      */
     public function testGetValue()
     {
-        $unit = new Unit(1.0, "", "");
+        $unit = new Unit(1.0);
         $this->assertEquals($unit->getValue(), 1.0);
     }
 
@@ -32,7 +32,7 @@ final class UnitTest extends TestCase
      */
     public function testgetUnit()
     {
-        $unit = new Unit(0.0, "foo", "");
+        $unit = new Unit(0.0, "foo");
         $this->assertEquals($unit->getUnit(), "foo");
     }
 
@@ -41,7 +41,7 @@ final class UnitTest extends TestCase
      */
     public function testgetUnitFahrenheit()
     {
-        $unit = new Unit(0.0, "fahrenheit", "");
+        $unit = new Unit(0.0, "fahrenheit");
         $this->assertEquals($unit->getUnit(), "F");
     }
 
@@ -50,7 +50,7 @@ final class UnitTest extends TestCase
      */
     public function testgetUnitCelsius()
     {
-        $unit = new Unit(0.0, "celsius", "");
+        $unit = new Unit(0.0, "celsius");
         $this->assertEquals($unit->getUnit(), "C");
     }
 
