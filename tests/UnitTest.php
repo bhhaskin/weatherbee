@@ -5,13 +5,13 @@ use PHPUnit\Framework\TestCase;
 use Bhhaskin\WeatherBee\Util\Unit;
 
 /**
- * @coversDefaultClass Bhhaskin\WeatherBee\Util\Unit
+ * @covers Bhhaskin\WeatherBee\Util\Unit
  */
 final class UnitTest extends TestCase
 {
 
     /**
-     * @covers ::__construct
+     * @covers Bhhaskin\WeatherBee\Util\Unit::__construct
      */
     public function testUnitCreation()
     {
@@ -19,7 +19,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getValue
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getValue
      */
     public function testGetValue()
     {
@@ -28,7 +28,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getUnit
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getUnit
      */
     public function testgetUnit()
     {
@@ -37,7 +37,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getUnit
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getUnit
      */
     public function testgetUnitFahrenheit()
     {
@@ -46,7 +46,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getUnit
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getUnit
      */
     public function testgetUnitCelsius()
     {
@@ -55,7 +55,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getDescription
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getDescription
      */
     public function testGetDecription()
     {
@@ -64,7 +64,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::getFormatted
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getFormatted
      */
     public function getFormatted()
     {
@@ -73,7 +73,7 @@ final class UnitTest extends TestCase
     }
 
     /**
-     * @covers ::__toString
+     * @covers Bhhaskin\WeatherBee\Util\Unit::__toString
      */
     public function testToString()
     {
