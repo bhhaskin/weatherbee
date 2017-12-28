@@ -66,10 +66,19 @@ final class UnitTest extends TestCase
     /**
      * @covers Bhhaskin\WeatherBee\Util\Unit::getFormatted
      */
-    public function getFormatted()
+    public function getFormattedWithUnit()
     {
         $unit = new Unit(1.1, "fahrenheit", "");
         $this->assertEquals($unit->getFormatted(), "1.1 F");
+    }
+
+    /**
+     * @covers Bhhaskin\WeatherBee\Util\Unit::getFormatted
+     */
+    public function getFormattedWithoutUnit()
+    {
+        $unit = new Unit(1.1, "", "");
+        $this->assertEquals($unit->getFormatted(), "1.1");
     }
 
     /**
