@@ -7,3 +7,6 @@ call_user_func(function () {
     /** @noinspection PhpIncludeInspection */
     require_once $autoloadFile;
 });
+
+$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
+$dotenv->load();
