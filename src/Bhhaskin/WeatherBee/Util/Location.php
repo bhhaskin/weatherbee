@@ -24,7 +24,7 @@ class location
      * @param float $lat Latitude of location.
      * @param float $lng Longitude of location.
      */
-    function __construct(float $lat = null, float $lng = null)
+    public function __construct(float $lat = null, float $lng = null)
     {
         $this->lat = $lat;
         $this->lng = $lng;

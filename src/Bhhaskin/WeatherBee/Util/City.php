@@ -34,7 +34,7 @@ class City extends Location
      * @param float  $lat     Latitude of city.
      * @param float  $lng     Longitude of city,
      */
-    function __construct(
+    public function __construct(
             string $name = null,
             string $state = null,
             string $country = null,
