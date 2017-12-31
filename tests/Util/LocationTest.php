@@ -1,5 +1,5 @@
 <?php
-namespace Bhhaskin\WeatherBee\Test;
+namespace Bhhaskin\WeatherBee\Test\Util;
 
 use PHPUnit\Framework\TestCase;
 use Bhhaskin\WeatherBee\Util\Location;

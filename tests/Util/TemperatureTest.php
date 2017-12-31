@@ -1,5 +1,5 @@
 <?php
-namespace Bhhaskin\WeatherBee\Tests;
+namespace Bhhaskin\WeatherBee\Test\Util;
 
 use PHPUnit\Framework\TestCase;
 use Bhhaskin\WeatherBee\Util\{Temperature, Unit};
