@@ -1,11 +1,11 @@
 <?php
-namespace Bhhaskin\WeatherBee\Tests;
+namespace Bhhaskin\WeatherBee\Tests\Exception;
 
 use PHPUnit\Framework\TestCase;
-use Bhhaskin\WeatherBee\Exception;
+use Bhhaskin\WeatherBee\Exception\Exception;
 
 /**
- * @covers Bhhaskin\WeatherBee\Exception
+ * @covers Bhhaskin\WeatherBee\Exception\Exception
  */
 final class ExceptionTest extends TestCase
 {
