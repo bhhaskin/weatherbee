@@ -1,5 +1,5 @@
 <?php
-namespace Bhhaskin\WeatherBee;
+namespace Bhhaskin\WeatherBee\Exception;
 
 /**
 * Dummy class extending \Exception

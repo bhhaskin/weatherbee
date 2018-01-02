@@ -28,4 +28,9 @@ class Weather
         $this->description = $description;
         $this->icon = $icon;
     }
+
+    public function __toString(): string
+    {
+        return $this->description;
+    }
 }
