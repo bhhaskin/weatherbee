@@ -1,16 +1,17 @@
 <?php
-namespace Bhhaskin\WeatherBee;
+namespace Bhhaskin;
 
 use Bhhaskin\WeatherBee\Backend\{Backend, WeatherGov};
+
 /**
  * Main Weather Class.
  */
-class Weather
+class WeatherBee
 {
 
     public $backend;
 
-    function __construct(Backend $backend = null)
+    public function __construct(Backend $backend = null)
     {
         if (empty($backend)) {
             $backend = new WeatherGov();
@@ -22,5 +23,10 @@ class Weather
     public function current(float $lat, float $lng)
     {
         return $this->backend->current($lat, $lng);
+    }
+
+    public function forecast(float $lat, float $lng)
+    {
+        return $this->backend->forecast($lat, $lng);
     }
 }

@@ -2,8 +2,8 @@
 
 require_once("bootstrap.php");
 
-use Bhhaskin\WeatherBee\Weather;
+use Bhhaskin\WeatherBee;
 
-$weather = new Weather();
+$weather = new WeatherBee();
 
-$weather->current(39.5581, -119.8508);
+$weather->forecast(39.5581, -119.8508);
